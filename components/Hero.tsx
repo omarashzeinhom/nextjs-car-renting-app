@@ -33,7 +33,15 @@ const Hero = () => {
             className="object-contain"
             loading="lazy"
           />
-          <div className="hero__image-overlay"></div>
+          <div className="hero__image-overlay">
+            <Image
+              src="/hero-altbg.webp"
+              alt="hero"
+              fill
+              className="object-contain sm:object-fill"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </div>
